@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextTemplator", "TextTemplator\TextTemplator.csproj", "{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{69034995-903B-4745-B6A7-34156C3F1BC6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CD62E1A-07F3-430C-B900-84FD143E763E}"
+	ProjectSection(SolutionItems) = preProject
+		Marketplace\ReadMe.txt = Marketplace\ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|ARM.Build.0 = Debug|ARM
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|x86.ActiveCfg = Debug|x86
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|x86.Build.0 = Debug|x86
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Debug|x86.Deploy.0 = Debug|x86
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|ARM.ActiveCfg = Release|ARM
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|ARM.Build.0 = Release|ARM
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|ARM.Deploy.0 = Release|ARM
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|x86.ActiveCfg = Release|x86
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|x86.Build.0 = Release|x86
+		{0EE14C13-D126-4C93-B2DF-21E984C6A7E0}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
