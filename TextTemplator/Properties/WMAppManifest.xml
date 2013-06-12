@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-GB" />
-  <App xmlns="" ProductID="{be727b9a-66b1-4433-a87f-34f893bc65b2}" Title="Text Templator" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="ScottIsAFool" Description="This app lets you create text templates that you might want to put as email/SMS/other and have them copied straight into your clipboard." Publisher="ScottLovegrove" PublisherID="{4dc9a749-ad5f-46f8-a811-a22a779d865e}">
+  <App xmlns="" ProductID="{be727b9a-66b1-4433-a87f-34f893bc65b2}" Title="Text Templator" RuntimeType="Silverlight" Version="1.0.1.0" Genre="apps.normal" Author="ScottIsAFool" Description="This app lets you create text templates that you might want to put as email/SMS/other and have them copied straight into your clipboard." Publisher="ScottLovegrove" PublisherID="{4dc9a749-ad5f-46f8-a811-a22a779d865e}">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
     </Capabilities>
@@ -21,9 +21,13 @@
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">WideBackground.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>false</HasLarge>
+          <HasLarge>True</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
